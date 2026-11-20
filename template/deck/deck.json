@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "title": "[Project name]",
+    "author": "Adil Arystanbek",
+    "output": "pitch.pptx"
+  },
+  "slides": [
+    {
+      "type": "title",
+      "icon": "FaBolt",
+      "title": "[Project name]",
+      "subtitle": "[Tagline: what it does in 3–6 words]",
+      "footer": "[Event]  ·  [Company] challenge  ·  Adil Ary",
+      "notes": "Hi, I'm Adil. This is [name]: [tagline]. [One sentence on what it is and for whom.]"
+    },
+    {
+      "type": "cards",
+      "title": "[The problem in one punchy line]",
+      "cards": [
+        { "icon": "FaCommentDots", "title": "[Pain point 1]", "text": "[1–2 sentences: who suffers and how]" },
+        { "icon": "FaExclamationTriangle", "title": "[Pain point 2]", "text": "[1–2 sentences]" },
+        { "icon": "FaEuroSign", "tone": "amber", "title": "[Why it costs money]", "text": "[1–2 sentences: the business cost]" }
+      ],
+      "footnote": "Pain points from our mentoring session with [Company]",
+      "notes": "[What the company told you. Use their words.]"
+    },
+    {
+      "type": "list",
+      "title": "Who it's for",
+      "items": [
+        { "icon": "FaUser", "title": "[User group 1]", "text": "[What they want, in their words]" },
+        { "icon": "FaTools", "title": "[User group 2]", "text": "[What they want]" },
+        { "icon": "FaIndustry", "tone": "navy", "title": "[The company itself]", "text": "[What the company gains]" }
+      ],
+      "notes": "[Who benefits.]"
+    },
+    {
+      "type": "statement",
+      "title": "[Name] in one sentence",
+      "sentence": "[A ___ that ___, so that ___ without ___.]",
+      "chips": ["[Question 1 it answers]", "[Question 2]", "[Question 3]"],
+      "image": "shots/feature.png",
+      "notes": "[The whole idea in one sentence.]"
+    },
+    {
+      "type": "demo",
+      "title": "Demo on [Company]'s real data",
+      "image": "shots/demo.png",
+      "caption": "[Data sources, with licence names]",
+      "heading": "[Dataset / site name]",
+      "subheading": "[Time span / source]",
+      "stats": [
+        { "value": "[N]", "label": "[things]" },
+        { "value": "[N]", "label": "[things]" },
+        { "value": "[N]", "label": "[things]" }
+      ],
+      "moments": [
+        { "tone": "teal", "title": "[Moment 1]", "text": "[What the app shows]" },
+        { "tone": "green", "title": "[Moment 2]", "text": "[What the app shows]" },
+        { "tone": "amber", "title": "[Moment 3]", "text": "[The 'wow' finding]" }
+      ],
+      "notes": "Switch to the live app here. [Demo path: 3 clicks max.]"
+    },
+    {
+      "type": "pipeline",
+      "title": "How it works",
+      "steps": [
+        { "title": "[Input / data]", "text": "[Where it comes from]" },
+        { "title": "[Processing / rules]", "text": "[What checks it]" },
+        { "title": "[AI decision]", "text": "[What it decides]" },
+        { "title": "[Output]", "text": "[What the user gets]" }
+      ],
+      "highlight": 2,
+      "callout": { "bold": "[Key design choice.]", "text": "[Why it matters, e.g. honest about uncertainty.]" },
+      "notes": "[Explain the pipeline in 20 seconds.]"
+    },
+    {
+      "type": "results",
+      "title": "Tested on [N] real cases",
+      "table": {
+        "header": ["Case", "Expected", "Result", "Conf."],
+        "colW": [1.7, 1.5, 2.0, 0.7],
+        "rows": [
+          ["[case]", "[expected]", "[result]", "[%]"],
+          ["[case]", "[expected]", "[result]", "[%]"],
+          ["[case]", "[expected]", "[result]", "[%]"]
+        ]
+      },
+      "bigStat": { "value": "[N]", "label": "[What the number is]", "insight": "[The surprising finding]" },
+      "notes": "[Proof it works on real data.]"
+    },
+    {
+      "type": "business",
+      "title": "How it creates value",
+      "cards": [
+        { "icon": "FaGift", "title": "[Free tier / included]", "text": "[What's free and why it helps sell]" },
+        { "icon": "FaEuroSign", "title": "[Paid tier]", "text": "[What people pay for]" },
+        { "icon": "FaHandshake", "title": "[Partners]", "text": "[Who else is involved]" }
+      ],
+      "image": "shots/report.png",
+      "takeaway": "For [Company]: [the one-line gain].",
+      "notes": "[No big revenue claims; prices to be tested.]"
+    },
+    {
+      "type": "pilot",
+      "title": "How [Company] can test it",
+      "pilot": ["[N] sites / users", "[N] months", "[who takes part]"],
+      "hypotheses": [
+        { "title": "[Hypothesis 1]", "measure": "[metric]" },
+        { "title": "[Hypothesis 2]", "measure": "[metric]" },
+        { "title": "[Someone will pay]", "measure": "[metric]" }
+      ],
+      "notes": "[Concrete, testable, cheap.]"
+    },
+    {
+      "type": "twoColumns",
+      "title": "Honest limits and next steps",
+      "left": { "heading": "Today", "items": ["[Limit 1]", "[Limit 2]", "[Limit 3]"] },
+      "right": { "heading": "Next", "items": ["[Next step 1]", "[Next step 2]", "[Next step 3]"] },
+      "notes": "[Honest first, then the path forward.]"
+    },
+    {
+      "type": "close",
+      "icon": "FaBolt",
+      "title": "Q&A",
+      "subtitle": "[Name]: [tagline]",
+      "footer": "Adil Ary  ·  [repo link]  ·  [demo link]",
+      "notes": "Thank [Company]. Questions."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "hackathon-deck-template",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Build a pitch deck (.pptx) from deck.json",
+  "scripts": {
+    "build": "node build.js deck.json",
+    "example": "node build.js example/deck.json"
+  },
+  "dependencies": {
+    "pptxgenjs": "^4.0.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-icons": "^5.0.0",
+    "sharp": "^0.34.0"
+  }
+}

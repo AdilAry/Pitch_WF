@@ -1,0 +1,39 @@
+{
+  "name": "video",
+  "version": "1.0.0",
+  "description": "Reusable Remotion video engine: scenes.json -> 1920x1080 product video",
+  "repository": {},
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@remotion/cli": "4.0.535",
+    "@remotion/install-whisper-cpp": "4.0.535",
+    "@remotion/media": "4.0.535",
+    "@remotion/transitions": "4.0.535",
+    "dotenv": "^18.0.8",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.535"
+  },
+  "devDependencies": {
+    "@remotion/eslint-config-flat": "4.0.535",
+    "@types/node": "^24.19.2",
+    "@types/react": "19.2.7",
+    "@types/web": "0.0.166",
+    "eslint": "9.39.5",
+    "prettier": "3.8.1",
+    "tsx": "^4.23.15",
+    "typescript": "5.9.3"
+  },
+  "scripts": {
+    "preview": "remotion studio",
+    "render": "remotion render Video out/video.mp4 --concurrency=2",
+    "check": "tsx scripts/check-scenes.ts",
+    "voice": "tsx scripts/voice.ts",
+    "timing:whisper": "tsx scripts/timing-whisper.ts",
+    "crop": "tsx scripts/crop.ts",
+    "regress": "tsx scripts/regress.ts",
+    "lint": "eslint src && tsc",
+    "upgrade": "remotion upgrade"
+  }
+}

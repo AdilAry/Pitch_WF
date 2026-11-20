@@ -1,0 +1,181 @@
+{
+  "id": "s02",
+  "source": "elevenlabs",
+  "hash": "b47dee2f72333659",
+  "durationSeconds": 12.646,
+  "speechEndSeconds": 12.585,
+  "words": [
+    {
+      "text": "Smart",
+      "start": 0,
+      "end": 0.372
+    },
+    {
+      "text": "sensors",
+      "start": 0.43,
+      "end": 0.848
+    },
+    {
+      "text": "measure",
+      "start": 0.906,
+      "end": 1.196
+    },
+    {
+      "text": "humidity",
+      "start": 1.242,
+      "end": 1.741
+    },
+    {
+      "text": "inside",
+      "start": 1.811,
+      "end": 2.241
+    },
+    {
+      "text": "roofs.",
+      "start": 2.299,
+      "end": 2.833
+    },
+    {
+      "text": "But",
+      "start": 3.007,
+      "end": 3.158
+    },
+    {
+      "text": "owners",
+      "start": 3.216,
+      "end": 3.529
+    },
+    {
+      "text": "can't",
+      "start": 3.587,
+      "end": 3.796
+    },
+    {
+      "text": "read",
+      "start": 3.855,
+      "end": 4.005
+    },
+    {
+      "text": "the",
+      "start": 4.052,
+      "end": 4.122
+    },
+    {
+      "text": "data.",
+      "start": 4.168,
+      "end": 4.725
+    },
+    {
+      "text": "A",
+      "start": 4.934,
+      "end": 5.016
+    },
+    {
+      "text": "graph",
+      "start": 5.085,
+      "end": 5.41
+    },
+    {
+      "text": "goes",
+      "start": 5.445,
+      "end": 5.654
+    },
+    {
+      "text": "up",
+      "start": 5.712,
+      "end": 5.84
+    },
+    {
+      "text": "and",
+      "start": 5.886,
+      "end": 5.956
+    },
+    {
+      "text": "they",
+      "start": 5.991,
+      "end": 6.095
+    },
+    {
+      "text": "ask:",
+      "start": 6.165,
+      "end": 6.641
+    },
+    {
+      "text": "is",
+      "start": 6.792,
+      "end": 6.92
+    },
+    {
+      "text": "that",
+      "start": 6.954,
+      "end": 7.082
+    },
+    {
+      "text": "a",
+      "start": 7.117,
+      "end": 7.14
+    },
+    {
+      "text": "leak?",
+      "start": 7.198,
+      "end": 7.721
+    },
+    {
+      "text": "Usually",
+      "start": 7.999,
+      "end": 8.348
+    },
+    {
+      "text": "it's",
+      "start": 8.394,
+      "end": 8.522
+    },
+    {
+      "text": "just",
+      "start": 8.568,
+      "end": 8.754
+    },
+    {
+      "text": "the",
+      "start": 8.789,
+      "end": 8.858
+    },
+    {
+      "text": "season,",
+      "start": 8.905,
+      "end": 9.497
+    },
+    {
+      "text": "so",
+      "start": 9.59,
+      "end": 9.694
+    },
+    {
+      "text": "they",
+      "start": 9.752,
+      "end": 9.857
+    },
+    {
+      "text": "call",
+      "start": 9.915,
+      "end": 10.101
+    },
+    {
+      "text": "the",
+      "start": 10.159,
+      "end": 10.228
+    },
+    {
+      "text": "manufacturer",
+      "start": 10.263,
+      "end": 11.018
+    },
+    {
+      "text": "anyway.",
+      "start": 11.099,
+      "end": 12.585
+    }
+  ],
+  "audioStart": 0,
+  "audioEnd": 11.65
+}

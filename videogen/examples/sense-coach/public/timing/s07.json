@@ -1,0 +1,151 @@
+{
+  "id": "s07",
+  "source": "elevenlabs",
+  "hash": "2e8b7e0536115ec9",
+  "durationSeconds": 11.627,
+  "speechEndSeconds": 11.564,
+  "words": [
+    {
+      "text": "The",
+      "start": 0,
+      "end": 0.151
+    },
+    {
+      "text": "basic",
+      "start": 0.209,
+      "end": 0.569
+    },
+    {
+      "text": "app",
+      "start": 0.65,
+      "end": 0.882
+    },
+    {
+      "text": "comes",
+      "start": 0.94,
+      "end": 1.184
+    },
+    {
+      "text": "free",
+      "start": 1.277,
+      "end": 1.544
+    },
+    {
+      "text": "with",
+      "start": 1.579,
+      "end": 1.695
+    },
+    {
+      "text": "the",
+      "start": 1.73,
+      "end": 1.8
+    },
+    {
+      "text": "hardware.",
+      "start": 1.846,
+      "end": 2.543
+    },
+    {
+      "text": "A",
+      "start": 2.868,
+      "end": 2.949
+    },
+    {
+      "text": "Sense",
+      "start": 3.042,
+      "end": 3.32
+    },
+    {
+      "text": "Care",
+      "start": 3.355,
+      "end": 3.564
+    },
+    {
+      "text": "subscription",
+      "start": 3.599,
+      "end": 4.203
+    },
+    {
+      "text": "adds",
+      "start": 4.284,
+      "end": 4.563
+    },
+    {
+      "text": "the",
+      "start": 4.598,
+      "end": 4.679
+    },
+    {
+      "text": "assistant,",
+      "start": 4.737,
+      "end": 5.468
+    },
+    {
+      "text": "reports",
+      "start": 5.584,
+      "end": 6.118
+    },
+    {
+      "text": "and",
+      "start": 6.165,
+      "end": 6.269
+    },
+    {
+      "text": "expert",
+      "start": 6.351,
+      "end": 6.734
+    },
+    {
+      "text": "review:",
+      "start": 6.78,
+      "end": 7.419
+    },
+    {
+      "text": "recurring",
+      "start": 7.628,
+      "end": 8.069
+    },
+    {
+      "text": "revenue",
+      "start": 8.139,
+      "end": 8.51
+    },
+    {
+      "text": "for",
+      "start": 8.545,
+      "end": 8.638
+    },
+    {
+      "text": "the",
+      "start": 8.673,
+      "end": 8.742
+    },
+    {
+      "text": "manufacturer,",
+      "start": 8.789,
+      "end": 9.683
+    },
+    {
+      "text": "and",
+      "start": 9.706,
+      "end": 9.822
+    },
+    {
+      "text": "fewer",
+      "start": 9.938,
+      "end": 10.252
+    },
+    {
+      "text": "support",
+      "start": 10.31,
+      "end": 10.646
+    },
+    {
+      "text": "calls.",
+      "start": 10.693,
+      "end": 11.564
+    }
+  ],
+  "audioStart": 0.02,
+  "audioEnd": 11.22
+}

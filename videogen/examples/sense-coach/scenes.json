@@ -1,0 +1,111 @@
+{
+  "meta": { "title": "Sense Coach", "fps": 30, "width": 1920, "height": 1080, "captions": true, "padSeconds": 0.3 },
+  "voice": { "modelId": "eleven_multilingual_v2", "settings": { "stability": 0.5, "similarity_boost": 0.75, "style": 0.0 } },
+  "theme": { "bg": "#0F2A3D", "accent": "#1B998B", "text": "#FFFFFF", "warn": "#F2A541" },
+  "scenes": [
+    {
+      "id": "s01",
+      "narration": "This is Sense Coach: your building, explained.",
+      "estSeconds": 6, "padSeconds": 0.8,
+      "visual": { "type": "title", "title": "Sense Coach", "subtitle": "Your building, explained.", "footer": "Junction X Vaasa 2026 · VILPE challenge winner" },
+      "cues": [
+        { "atWord": "Sense", "action": "show", "target": "title" },
+        { "atWord": "building", "action": "show", "target": "subtitle" },
+        { "atFraction": 0.8, "action": "show", "target": "footer" }
+      ]
+    },
+    {
+      "id": "s02",
+      "narration": "Smart sensors measure humidity inside roofs. But owners can't read the data. A graph goes up and they ask: is that a leak? Usually it's just the season, so they call the manufacturer anyway.",
+      "estSeconds": 14,
+      "visual": { "type": "chart", "kind": "line", "points": [42, 43, 45, 44, 48, 55, 63, 71, 76], "label": "Roof humidity %", "bandLabel": "season" },
+      "cues": [
+        { "atWord": "graph", "action": "show", "target": "line" },
+        { "atWord": "leak", "action": "show", "target": "questionMark" },
+        { "atWord": "season", "action": "highlight", "target": "band" },
+        { "atWord": "call", "action": "show", "target": "phoneIcon" }
+      ]
+    },
+    {
+      "id": "s03",
+      "narration": "Sense Coach answers three questions in plain words. Is my roof OK? Is this normal? What should I do?",
+      "estSeconds": 8,
+      "visual": { "type": "cards", "items": [
+        { "title": "Is my roof OK?", "text": "" },
+        { "title": "Is this normal?", "text": "" },
+        { "title": "What should I do?", "text": "" } ] },
+      "cues": [
+        { "atWord": "roof", "action": "show", "target": 0 },
+        { "atWord": "normal", "action": "show", "target": 1 },
+        { "atWord": "should", "action": "show", "target": 2 }
+      ]
+    },
+    {
+      "id": "s04",
+      "narration": "The owner opens the app and gets one line: all normal, two things to keep an eye on, and what to do next.",
+      "estSeconds": 10,
+      "visual": { "type": "clip", "src": "clips/c1_home.mp4", "frame": "phone", "trimStart": 0.5, "speed": 1.25,
+        "crop": { "top": 0.097, "left": 0.357, "right": 0.362 } },
+      "cues": [
+        { "atWord": "line", "action": "zoom", "target": { "scale": 1.15, "x": 0.5, "y": 0.3 } },
+        { "atWord": "do", "action": "zoom", "target": { "scale": 1.15, "x": 0.5, "y": 0.6 } }
+      ]
+    },
+    {
+      "id": "s05",
+      "narration": "We tested it on real data: one year, fifty-one sensors. The standard leak alarms fired zero times. Sense Coach still found a sensor jumping sixty-two points between readings, and a roof fan that hadn't run for months.",
+      "estSeconds": 16,
+      "visual": { "type": "dotmap", "count": 51, "columns": 10,
+        "counters": [ { "value": 1, "label": "year" }, { "value": 51, "label": "sensors" }, { "value": 0, "label": "leak alarms" } ],
+        "highlights": [ { "id": "P672830B96G", "label": "P672830B96G · jumps up to 62 points" }, { "id": "fan2", "label": "Green roof fan 2 · 0 rpm for months" } ] },
+      "cues": [
+        { "atWord": "year", "action": "show", "target": 0 },
+        { "atWord": "fifty-one", "action": "show", "target": 1 },
+        { "atWord": "fifty-one", "action": "show", "target": "grid" },
+        { "atWord": "zero", "action": "show", "target": 2 },
+        { "atWord": "jumping", "action": "highlight", "target": "P672830B96G" },
+        { "atWord": "fan", "action": "highlight", "target": "fan2" }
+      ]
+    },
+    {
+      "id": "s06",
+      "narration": "The manufacturer's own alarm rules check the data first. Jev decides what it means and how sure it is. Claude explains it in plain words. And if it's unclear, the app says so.",
+      "estSeconds": 12,
+      "visual": { "type": "pipeline", "steps": [
+        { "title": "VILPE rules", "text": "Exact checks from the guidebook" },
+        { "title": "Jev", "text": "Decision + confidence" },
+        { "title": "Claude", "text": "Plain words" } ],
+        "badge": "Not sure (25%) → keep watching" },
+      "cues": [
+        { "atWord": "rules", "action": "highlight", "target": 0 },
+        { "atWord": "Jev", "action": "highlight", "target": 1 },
+        { "atWord": "Claude", "action": "highlight", "target": 2 },
+        { "atWord": "unclear", "action": "show", "target": "badge" }
+      ]
+    },
+    {
+      "id": "s07",
+      "narration": "The basic app comes free with the hardware. A Sense Care subscription adds the assistant, reports and expert review: recurring revenue for the manufacturer, and fewer support calls.",
+      "estSeconds": 11, "padSeconds": 0.8,
+      "visual": { "type": "twoColumns",
+        "left": { "heading": "Free with hardware", "items": ["Status", "Alerts", "Roof map"] },
+        "right": { "heading": "Sense Care", "items": ["Ask assistant", "Reports", "Expert review"] },
+        "footer": "Recurring revenue · fewer support calls" },
+      "cues": [
+        { "atWord": "free", "action": "show", "target": "left" },
+        { "atWord": "subscription", "action": "show", "target": "right" },
+        { "atWord": "recurring", "action": "show", "target": "footer" }
+      ]
+    },
+    {
+      "id": "s08",
+      "narration": "Sense Coach: your building, explained. Thanks for watching.",
+      "estSeconds": 5, "voiceContext": false,
+      "visual": { "type": "title", "title": "Sense Coach", "subtitle": "Your building, explained.", "footer": "vilpejunction.streamlit.app · github.com/AdilAry/hack" },
+      "cues": [
+        { "atWord": "Thanks", "action": "show", "target": "footer" },
+        { "atFraction": 0.85, "action": "fadeOut" }
+      ]
+    }
+  ]
+}

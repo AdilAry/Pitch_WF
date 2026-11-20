@@ -1,0 +1,196 @@
+{
+  "id": "s05",
+  "source": "elevenlabs",
+  "hash": "759232386a83c870",
+  "durationSeconds": 14.605,
+  "speechEndSeconds": 14.536,
+  "words": [
+    {
+      "text": "We",
+      "start": 0,
+      "end": 0.139
+    },
+    {
+      "text": "tested",
+      "start": 0.197,
+      "end": 0.569
+    },
+    {
+      "text": "it",
+      "start": 0.615,
+      "end": 0.685
+    },
+    {
+      "text": "on",
+      "start": 0.743,
+      "end": 0.848
+    },
+    {
+      "text": "real",
+      "start": 0.964,
+      "end": 1.196
+    },
+    {
+      "text": "data:",
+      "start": 1.265,
+      "end": 1.823
+    },
+    {
+      "text": "one",
+      "start": 2.148,
+      "end": 2.357
+    },
+    {
+      "text": "year,",
+      "start": 2.403,
+      "end": 2.705
+    },
+    {
+      "text": "fifty-one",
+      "start": 2.74,
+      "end": 3.274
+    },
+    {
+      "text": "sensors.",
+      "start": 3.332,
+      "end": 4.029
+    },
+    {
+      "text": "The",
+      "start": 4.272,
+      "end": 4.389
+    },
+    {
+      "text": "standard",
+      "start": 4.447,
+      "end": 4.876
+    },
+    {
+      "text": "leak",
+      "start": 4.934,
+      "end": 5.12
+    },
+    {
+      "text": "alarms",
+      "start": 5.178,
+      "end": 5.608
+    },
+    {
+      "text": "fired",
+      "start": 5.689,
+      "end": 6.095
+    },
+    {
+      "text": "zero",
+      "start": 6.165,
+      "end": 6.571
+    },
+    {
+      "text": "times.",
+      "start": 6.653,
+      "end": 7.303
+    },
+    {
+      "text": "Sense",
+      "start": 7.686,
+      "end": 7.976
+    },
+    {
+      "text": "Coach",
+      "start": 8.011,
+      "end": 8.29
+    },
+    {
+      "text": "still",
+      "start": 8.336,
+      "end": 8.568
+    },
+    {
+      "text": "found",
+      "start": 8.638,
+      "end": 8.847
+    },
+    {
+      "text": "a",
+      "start": 8.893,
+      "end": 8.916
+    },
+    {
+      "text": "sensor",
+      "start": 8.975,
+      "end": 9.323
+    },
+    {
+      "text": "jumping",
+      "start": 9.381,
+      "end": 9.694
+    },
+    {
+      "text": "sixty-two",
+      "start": 9.776,
+      "end": 10.275
+    },
+    {
+      "text": "points",
+      "start": 10.356,
+      "end": 10.646
+    },
+    {
+      "text": "between",
+      "start": 10.693,
+      "end": 10.983
+    },
+    {
+      "text": "readings,",
+      "start": 11.064,
+      "end": 11.645
+    },
+    {
+      "text": "and",
+      "start": 11.796,
+      "end": 11.935
+    },
+    {
+      "text": "a",
+      "start": 11.993,
+      "end": 12.016
+    },
+    {
+      "text": "roof",
+      "start": 12.086,
+      "end": 12.295
+    },
+    {
+      "text": "fan",
+      "start": 12.365,
+      "end": 12.597
+    },
+    {
+      "text": "that",
+      "start": 12.655,
+      "end": 12.759
+    },
+    {
+      "text": "hadn't",
+      "start": 12.817,
+      "end": 13.061
+    },
+    {
+      "text": "run",
+      "start": 13.108,
+      "end": 13.305
+    },
+    {
+      "text": "for",
+      "start": 13.375,
+      "end": 13.491
+    },
+    {
+      "text": "months.",
+      "start": 13.56,
+      "end": 14.536
+    }
+  ],
+  "audioStart": 0,
+  "audioEnd": 14.06
+}

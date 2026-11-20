@@ -1,0 +1,69 @@
+{
+  "meta": { "title": "Patch This First", "fps": 30, "width": 1920, "height": 1080, "captions": true, "padSeconds": 0.3, "targetSeconds": 40, "maxSeconds": 60 },
+  "voice": { "modelId": "eleven_multilingual_v2", "settings": { "stability": 0.5, "similarity_boost": 0.75, "style": 0.0 } },
+  "theme": {
+    "bg": "#FFFFFF", "accent": "#0B5CAD", "text": "#1B1F24", "warn": "#C0392B",
+    "panel": "#F2F6FB", "panelBorder": "#C9D6E6", "captionBg": "rgba(255,255,255,0.92)"
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "narration": "A small office pastes its software list. The app 'Patch This First' names three things to fix this week.",
+      "estSeconds": 7, "padSeconds": 0.8,
+      "visual": { "type": "title", "title": "Patch This First", "subtitle": "3 fixes this week, in plain words" },
+      "cues": [ { "atWord": "The", "action": "show", "target": "subtitle" } ]
+    },
+    {
+      "id": "s02",
+      "narration": "Here is an invented twelve-person office. All three top items have flaws used in real attacks, including ransomware. Each card says what to do, with the maker's link.",
+      "estSeconds": 12,
+      "visual": { "type": "clip", "src": "clips/c1_sample.mp4", "frame": "none", "trimStart": 4.0, "speed": 1.0,
+        "crop": {"top": 0.1686, "left": 0.1031, "right": 0.1026, "bottom": 0} },
+      "cues": [
+        { "atWord": "three", "action": "zoom", "target": { "scale": 1.15, "x": 0.5, "y": 0.4 } },
+        { "atWord": "card", "action": "zoom", "target": { "scale": 1.25, "x": 0.45, "y": 0.5 } }
+      ]
+    },
+    {
+      "id": "s03",
+      "narration": "Thirteen of sixteen programs matched. The three others are listed, never called safe. Two cards are Windows, so it is really two updates. Versions are not checked.",
+      "estSeconds": 11,
+      "visual": { "type": "counters", "items": [
+        { "value": 13, "label": "of 16 matched" },
+        { "value": 3, "label": "not matched, listed" },
+        { "value": 2, "label": "distinct updates" }
+      ] },
+      "cues": [
+        { "atWord": "Thirteen", "action": "show", "target": 0 },
+        { "atWord": "others", "action": "show", "target": 1 },
+        { "atWord": "Two", "action": "show", "target": 2 }
+      ]
+    },
+    {
+      "id": "s04",
+      "narration": "Matching runs on your own laptop. The AI only sees four public facts, never your list.",
+      "estSeconds": 7, "padSeconds": 0.8,
+      "visual": { "type": "pipeline", "steps": [
+        { "title": "Your list", "text": "Stays on your laptop" },
+        { "title": "Match and rank", "text": "CISA exploited list" },
+        { "title": "AI wording", "text": "4 public facts" }
+      ], "badge": "Your list is never sent" },
+      "cues": [
+        { "atWord": "Matching", "action": "highlight", "target": 0 },
+        { "atWord": "laptop", "action": "highlight", "target": 1 },
+        { "atWord": "AI", "action": "highlight", "target": 2 },
+        { "atWord": "never", "action": "show", "target": "badge" }
+      ]
+    },
+    {
+      "id": "s05",
+      "narration": "Patch This First. Three fixes this week, in Finnish or English.",
+      "estSeconds": 5,
+      "visual": { "type": "title", "title": "Patch This First", "subtitle": "3 fixes this week, in plain words", "footer": "Data: CISA KEV 2026.10.30 (CC0 1.0) · EPSS by FIRST.org, 2026-11-02" },
+      "cues": [
+        { "atWord": "Three", "action": "show", "target": "footer" },
+        { "atFraction": 0.85, "action": "fadeOut" }
+      ]
+    }
+  ]
+}

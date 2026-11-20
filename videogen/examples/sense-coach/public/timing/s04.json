@@ -1,0 +1,126 @@
+{
+  "id": "s04",
+  "source": "elevenlabs",
+  "hash": "652a86c4d570048c",
+  "durationSeconds": 7.082,
+  "speechEndSeconds": 7.012,
+  "words": [
+    {
+      "text": "The",
+      "start": 0,
+      "end": 0.163
+    },
+    {
+      "text": "owner",
+      "start": 0.244,
+      "end": 0.488
+    },
+    {
+      "text": "opens",
+      "start": 0.569,
+      "end": 0.882
+    },
+    {
+      "text": "the",
+      "start": 0.929,
+      "end": 1.01
+    },
+    {
+      "text": "app",
+      "start": 1.091,
+      "end": 1.312
+    },
+    {
+      "text": "and",
+      "start": 1.358,
+      "end": 1.428
+    },
+    {
+      "text": "gets",
+      "start": 1.486,
+      "end": 1.66
+    },
+    {
+      "text": "one",
+      "start": 1.718,
+      "end": 1.881
+    },
+    {
+      "text": "line:",
+      "start": 1.927,
+      "end": 2.426
+    },
+    {
+      "text": "all",
+      "start": 2.635,
+      "end": 2.844
+    },
+    {
+      "text": "normal,",
+      "start": 2.914,
+      "end": 3.437
+    },
+    {
+      "text": "two",
+      "start": 3.611,
+      "end": 3.82
+    },
+    {
+      "text": "things",
+      "start": 3.889,
+      "end": 4.156
+    },
+    {
+      "text": "to",
+      "start": 4.203,
+      "end": 4.249
+    },
+    {
+      "text": "keep",
+      "start": 4.296,
+      "end": 4.447
+    },
+    {
+      "text": "an",
+      "start": 4.493,
+      "end": 4.551
+    },
+    {
+      "text": "eye",
+      "start": 4.609,
+      "end": 4.772
+    },
+    {
+      "text": "on,",
+      "start": 4.818,
+      "end": 5.155
+    },
+    {
+      "text": "and",
+      "start": 5.329,
+      "end": 5.48
+    },
+    {
+      "text": "what",
+      "start": 5.538,
+      "end": 5.677
+    },
+    {
+      "text": "to",
+      "start": 5.712,
+      "end": 5.759
+    },
+    {
+      "text": "do",
+      "start": 5.817,
+      "end": 5.898
+    },
+    {
+      "text": "next.",
+      "start": 5.968,
+      "end": 7.012
+    }
+  ],
+  "audioStart": 0.02,
+  "audioEnd": 6.51
+}

@@ -1,0 +1,51 @@
+{
+  "id": "s08",
+  "source": "elevenlabs",
+  "hash": "0d4d1ba22ef4f48c",
+  "durationSeconds": 3.869,
+  "speechEndSeconds": 3.808,
+  "audioStart": 0,
+  "audioEnd": 3.62,
+  "words": [
+    {
+      "text": "Sense",
+      "start": 0,
+      "end": 0.36
+    },
+    {
+      "text": "Coach:",
+      "start": 0.406,
+      "end": 0.859
+    },
+    {
+      "text": "your",
+      "start": 1.184,
+      "end": 1.324
+    },
+    {
+      "text": "building,",
+      "start": 1.37,
+      "end": 1.8
+    },
+    {
+      "text": "explained.",
+      "start": 1.834,
+      "end": 2.438
+    },
+    {
+      "text": "Thanks",
+      "start": 2.682,
+      "end": 2.937
+    },
+    {
+      "text": "for",
+      "start": 2.972,
+      "end": 3.065
+    },
+    {
+      "text": "watching.",
+      "start": 3.123,
+      "end": 3.808
+    }
+  ]
+}

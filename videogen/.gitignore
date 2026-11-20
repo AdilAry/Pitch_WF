@@ -1,0 +1,20 @@
+node_modules/
+out/
+dist/
+.env
+.DS_Store
+
+# Generated / large media (timing JSON files in public/timing/ ARE committed)
+public/audio/
+public/clips/
+
+# Own-voice recordings and the local Whisper install (M6)
+recordings/
+whisper.cpp/
+
+# The Sense Coach example's media and video ARE committed: they are the regression reference for
+# `npm run regress` (16 MB). A project's copy of this folder may delete them.
+!examples/sense-coach/out/
+
+# Local Claude Code settings
+.claude/

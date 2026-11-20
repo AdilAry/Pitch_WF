@@ -1,0 +1,137 @@
+{
+  "meta": {
+    "title": "Template test",
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "captions": true,
+    "padSeconds": 0.3
+  },
+  "voice": {
+    "modelId": "eleven_multilingual_v2",
+    "settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.75,
+      "style": 0.0
+    }
+  },
+  "theme": {
+    "bg": "#0F2A3D",
+    "accent": "#1B998B",
+    "text": "#FFFFFF",
+    "warn": "#F2A541"
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "narration": "This is a test of the video template. Replace this file with the real project.",
+      "estSeconds": 6,
+      "visual": {
+        "type": "title",
+        "title": "Project name",
+        "subtitle": "One-line tagline goes here",
+        "footer": "Event · Challenge · Adil Ary"
+      },
+      "cues": [
+        {
+          "atWord": "test",
+          "action": "show",
+          "target": "title"
+        },
+        {
+          "atWord": "template",
+          "action": "show",
+          "target": "subtitle"
+        },
+        {
+          "atWord": "Replace",
+          "action": "show",
+          "target": "footer"
+        }
+      ]
+    },
+    {
+      "id": "s02",
+      "narration": "Every scene has three parts. First, the narration. Second, the visual. Third, the cues that sync them.",
+      "estSeconds": 7,
+      "visual": {
+        "type": "cards",
+        "items": [
+          {
+            "title": "Narration",
+            "text": "What the voice says"
+          },
+          {
+            "title": "Visual",
+            "text": "What is on screen"
+          },
+          {
+            "title": "Cues",
+            "text": "When things appear"
+          }
+        ]
+      },
+      "cues": [
+        {
+          "atWord": "narration",
+          "action": "show",
+          "target": 0
+        },
+        {
+          "atWord": "visual",
+          "action": "show",
+          "target": 1
+        },
+        {
+          "atWord": "cues",
+          "action": "show",
+          "target": 2
+        }
+      ]
+    },
+    {
+      "id": "s03",
+      "narration": "Numbers appear right on time. Three scenes, twelve seconds of narration, and zero manual editing.",
+      "estSeconds": 7,
+      "visual": {
+        "type": "counters",
+        "items": [
+          {
+            "value": 3,
+            "label": "scenes"
+          },
+          {
+            "value": 12,
+            "label": "seconds",
+            "suffix": "s"
+          },
+          {
+            "value": 0,
+            "label": "manual edits"
+          }
+        ]
+      },
+      "cues": [
+        {
+          "atWord": "Three",
+          "action": "show",
+          "target": 0
+        },
+        {
+          "atWord": "twelve",
+          "action": "show",
+          "target": 1
+        },
+        {
+          "atWord": "zero",
+          "action": "show",
+          "target": 2
+        },
+        {
+          "atFraction": 0.9,
+          "action": "fadeOut"
+        }
+      ]
+    }
+  ]
+}

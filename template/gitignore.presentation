@@ -1,0 +1,8 @@
+# Added by /entry (Pitch_WF): presentation materials
+node_modules/
+*.pptx
+# Large media; screenshots under deck/shots/ ARE committed
+*.mp4
+*.mov
+*.wav
+*.m4a

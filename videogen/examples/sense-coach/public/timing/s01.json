@@ -1,0 +1,46 @@
+{
+  "id": "s01",
+  "source": "elevenlabs",
+  "hash": "d0c99f98db05c3c2",
+  "durationSeconds": 3.738,
+  "speechEndSeconds": 3.669,
+  "words": [
+    {
+      "text": "This",
+      "start": 0,
+      "end": 0.209
+    },
+    {
+      "text": "is",
+      "start": 0.267,
+      "end": 0.337
+    },
+    {
+      "text": "Sense",
+      "start": 0.383,
+      "end": 0.65
+    },
+    {
+      "text": "Coach:",
+      "start": 0.685,
+      "end": 1.138
+    },
+    {
+      "text": "your",
+      "start": 1.521,
+      "end": 1.66
+    },
+    {
+      "text": "building,",
+      "start": 1.695,
+      "end": 2.125
+    },
+    {
+      "text": "explained.",
+      "start": 2.148,
+      "end": 3.669
+    }
+  ],
+  "audioStart": 0.01,
+  "audioEnd": 2.83
+}

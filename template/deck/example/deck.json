@@ -1,0 +1,137 @@
+{
+  "meta": {
+    "title": "Sense Coach",
+    "author": "Adil Arystanbek",
+    "output": "Sense_Coach.pptx"
+  },
+  "slides": [
+    {
+      "type": "title",
+      "icon": "FaTint",
+      "title": "Sense Coach",
+      "subtitle": "Your building, explained.",
+      "footer": "Junction X Vaasa 2026  ·  VILPE challenge  ·  Adil Ary",
+      "image": "shots/s_home.png",
+      "notes": "Hi, I'm Adil. This is Sense Coach: your building, explained. A new service for VILPE Sense owners."
+    },
+    {
+      "type": "cards",
+      "title": "The data is there. The understanding isn't",
+      "cards": [
+        { "icon": "FaCommentDots", "title": "Customers can't read their data", "text": "Owners see graphs but can't tell a seasonal rise from a leak, so they call VILPE to have it explained." },
+        { "icon": "FaHardHat", "title": "Wet installations look alarming", "text": "Sensors fitted into still-wet structures give confusing first data. Alarms fire before there is a baseline." },
+        { "icon": "FaEuroSign", "tone": "amber", "title": "The data earns nothing", "text": "VILPE sells hardware. Years of building data create no recurring value today." }
+      ],
+      "footnote": "Pain points from our mentoring session with VILPE",
+      "notes": "Two pain points VILPE told us about, plus: the data creates no recurring value."
+    },
+    {
+      "type": "list",
+      "title": "Who it's for",
+      "items": [
+        { "icon": "FaBuilding", "title": "Building owners & facility managers", "text": "\"Is my roof OK? What should I do?\" Status, explanations and reports." },
+        { "icon": "FaHardHat", "title": "Contractors", "text": "Follow the structure as it dries and hand over with a clear report." },
+        { "icon": "FaIndustry", "tone": "navy", "title": "VILPE", "text": "Fewer basic support questions and a recurring service to sell." }
+      ],
+      "notes": "Three groups: owners, contractors, VILPE itself."
+    },
+    {
+      "type": "statement",
+      "title": "Sense Coach in one sentence",
+      "sentence": "A mobile app that turns VILPE Sense data into plain-language answers, so customers understand their building without calling VILPE.",
+      "chips": ["Is my roof OK?", "Is this normal?", "What should I do?"],
+      "image": "shots/s_ask.png",
+      "notes": "The whole idea in one sentence, and the three questions it answers."
+    },
+    {
+      "type": "demo",
+      "title": "Demo on VILPE's real data",
+      "image": "shots/s_map.png",
+      "heading": "VILPE warehouse, Vantaa",
+      "subheading": "One year of real readings",
+      "stats": [
+        { "value": "51", "label": "leak sensors" },
+        { "value": "7", "label": "humidity-controlled fans" },
+        { "value": "37,302", "label": "sensor readings" }
+      ],
+      "moments": [
+        { "tone": "teal", "title": "Autumn 2025", "text": "Humidity falling towards the roof's normal level" },
+        { "tone": "green", "title": "Winter 2026", "text": "All normal: the app says so in one sentence" },
+        { "tone": "amber", "title": "Summer 2026", "text": "Seasonal rise, not a leak" },
+        { "tone": "amber", "title": "30 June 2026", "text": "A jumpy sensor VILPE's alarms didn't catch" }
+      ],
+      "notes": "Switch to the live app here."
+    },
+    {
+      "type": "pipeline",
+      "title": "How it works",
+      "steps": [
+        { "title": "VILPE Sense data", "text": "Humidity & temperature from inside the structure" },
+        { "title": "VILPE's alarm rules", "text": "Exact checks from the Sense guidebook" },
+        { "title": "Jev decides", "text": "What it means, how urgent, how sure" },
+        { "title": "Claude explains", "text": "Plain words and reports for each audience" }
+      ],
+      "highlight": 2,
+      "callout": { "bold": "When the answer isn't clear, Sense Coach says so.", "text": "It keeps watching and suggests simple self-checks." },
+      "notes": "Rules detect, Jev decides, Claude explains."
+    },
+    {
+      "type": "results",
+      "title": "Tested on six real situations",
+      "table": {
+        "header": ["Situation", "Date", "Sense Coach (Jev)", "Sure"],
+        "colW": [1.7, 1.15, 2.35, 0.7],
+        "rows": [
+          ["Whole roof", "15 Oct 2025", "Humidity falling towards normal", "99 %"],
+          ["Whole roof", "15 Feb 2026", "Normal", "82 %"],
+          ["Whole roof", "15 Jul 2026", "Seasonal change", "91 %"],
+          ["Sensor P672830B96G", "30 Jun 2026", "Sensor check", "91 %"],
+          ["Green roof fan 2", "15 Jul 2026", "Ventilation check", "82 %"],
+          ["Crawl space fan", "15 Jul 2026", "Unclear for now: keeps watching", "25 %"]
+        ]
+      },
+      "bigStat": { "value": "0", "label": "VILPE leak alarms in 37,302 readings", "insight": "Yet Sense Coach still found a jumpy sensor and a fan that hasn't run for months." },
+      "notes": "Zero alarms, but it still found real issues, and said 'unclear' when it was."
+    },
+    {
+      "type": "business",
+      "title": "How it creates and captures value",
+      "cards": [
+        { "icon": "FaPhoneAlt", "title": "Free with the hardware", "text": "Status, roof map and simple explanations. Makes VILPE Sense easier to sell." },
+        { "icon": "FaEuroSign", "title": "Sense Care subscription", "text": "Per site: Ask assistant, reports, optional expert review." },
+        { "icon": "FaHandshake", "title": "Partner channel", "text": "Maintenance companies handle the follow-up checks the app points to." }
+      ],
+      "image": "shots/s_report.png",
+      "takeaway": "For VILPE: recurring revenue and fewer support calls.",
+      "notes": "Free tier sells hardware; subscription = recurring revenue; partners do physical follow-up."
+    },
+    {
+      "type": "pilot",
+      "title": "How VILPE can test it",
+      "pilot": ["5–10 existing sites", "3 months", "1 contractor + several owners"],
+      "image": "shots/s_calc.png",
+      "hypotheses": [
+        { "title": "Customers get answers without calling VILPE", "measure": "support questions before vs during" },
+        { "title": "People actually use it", "measure": "questions answered in the app, report downloads" },
+        { "title": "Contractors value the handover report", "measure": "reports used at handover" },
+        { "title": "Someone will pay", "measure": "sites saying yes at a test price" }
+      ],
+      "notes": "Concrete and testable with existing customers."
+    },
+    {
+      "type": "twoColumns",
+      "title": "Honest limits and next steps",
+      "left": { "heading": "Today", "items": ["One building, one year of data", "Estimates are rough", "Mobile-first web prototype", "Business numbers are assumptions"] },
+      "right": { "heading": "Next", "items": ["Tune on more VILPE sites", "Native app on the same engine", "Login via VILPE Sense account", "Run the pilot, set real prices"] },
+      "notes": "Be honest about what's a prototype, then show the path forward."
+    },
+    {
+      "type": "close",
+      "icon": "FaTint",
+      "title": "Q&A",
+      "subtitle": "Sense Coach: your building, explained.",
+      "footer": "Adil Ary  ·  github.com/AdilAry/hack  ·  vilpejunction.streamlit.app",
+      "notes": "Thank VILPE, open for questions."
+    }
+  ]
+}

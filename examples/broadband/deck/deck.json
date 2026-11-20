@@ -1,0 +1,120 @@
+{
+  "meta": { "title": "Broadband Gap Finder", "author": "Adil Arystanbek", "output": "pitch.pptx" },
+  "colors": { "navy": "792A59", "teal": "DC016F", "ink": "180D0A" },
+  "slides": [
+    {
+      "type": "title",
+      "icon": "FaBroadcastTower",
+      "title": "Broadband Gap Finder",
+      "subtitle": "Find the slow broadband, and know how sure you are.",
+      "footer": "Since AI 2026 dry run  ·  mock DNA challenge  ·  Adil Ary",
+      "notes": "Hi, I'm Adil. This is Broadband Gap Finder: find the slow broadband, and know how sure you are. It's a map for sales teams choosing fixed-wireless campaign areas in Varsinais-Suomi."
+    },
+    {
+      "type": "cards",
+      "title": "Municipal averages hide the villages",
+      "cards": [
+        { "icon": "FaChartBar", "title": "Coarse statistics", "text": "Campaign areas are chosen from municipal statistics." },
+        { "icon": "FaSearch", "title": "Hidden villages", "text": "Villages with real demand disappear inside the municipal average." },
+        { "icon": "FaListUl", "tone": "amber", "title": "No shared list", "text": "Nothing explains where to market fixed wireless next quarter." }
+      ],
+      "footnote": "Problem as stated in the mock DNA challenge",
+      "notes": "This is the problem as the challenge states it. Campaign areas come from municipal statistics, those averages hide villages, and there's no shared list that explains itself."
+    },
+    {
+      "type": "list",
+      "title": "Who it's for",
+      "items": [
+        { "icon": "FaUser", "title": "Regional sales managers", "text": "Choose next quarter's campaign areas from a list they can export." },
+        { "icon": "FaTools", "title": "Network planners", "text": "See how mobile performs near an area, with its test count." },
+        { "icon": "FaCommentDots", "tone": "green", "title": "What they want", "text": "Click an area and read why it's listed, in one sentence with real numbers." },
+        { "icon": "FaEyeSlash", "tone": "amber", "title": "What they don't want", "text": "Black-box scores, or thin data that is hidden instead of shown honestly." }
+      ],
+      "notes": "Two groups from the challenge. They want a reason they can read, and no black-box scores. No real user has tried it yet, so this describes the intended audience."
+    },
+    {
+      "type": "statement",
+      "title": "Broadband Gap Finder in one sentence",
+      "sentence": "A map tool that ranks 1 km squares where people live with slow fixed broadband, so sales teams can choose fixed-wireless campaign areas without guessing from municipal averages.",
+      "chips": ["Where is fixed slow?", "Is mobile strong nearby?", "How sure are we?"],
+      "image": "shots/card.png",
+      "notes": "Fixed wireless means a home router on the mobile network. The map asks three questions: where is fixed slow, is mobile strong nearby, and how sure are we?"
+    },
+    {
+      "type": "demo",
+      "title": "Demo on public open data",
+      "image": "shots/map.png",
+      "imageLarge": true,
+      "caption": "Data: Speedtest® by Ookla® open data, Statistics Finland. Base map © CARTO, © OpenStreetMap contributors.",
+      "heading": "Varsinais-Suomi",
+      "subheading": "Speed tests 2026 Q3, population grid 2025 edition",
+      "stats": [
+        { "value": "7,791", "label": "inhabited squares" },
+        { "value": "491,224", "label": "residents" },
+        { "value": "27", "label": "municipalities" }
+      ],
+      "moments": [
+        { "tone": "teal", "title": "See the map", "text": "Every square is coloured by its label; thin data stays visible." },
+        { "tone": "amber", "title": "Click the red ring", "text": "Naantali: 14 residents, fixed 16.9 Mbit/s from 220 tests, mobile 111.1 Mbit/s." },
+        { "tone": "green", "title": "Export the shortlist", "text": "One click gives 20 squares with a reason for each." }
+      ],
+      "notes": "Switch to the live app here. Show the map, click the red ring and read the card, then scroll to the shortlist and download it."
+    },
+    {
+      "type": "pipeline",
+      "title": "How it works",
+      "steps": [
+        { "title": "Public data", "text": "Ookla speed tests joined to the 1 km population grid." },
+        { "title": "Rules", "text": "Slow under 30 Mbit/s; mobile 100 Mbit/s or more from 10 tests." },
+        { "title": "AI rewords", "text": "Gemini writes one sentence from the square's computed facts." },
+        { "title": "Shortlist", "text": "Sorted by residents × gap, exported with attribution." }
+      ],
+      "highlight": 1,
+      "callout": { "bold": "Rules decide every label and rank.", "text": "Code rejects any AI sentence whose numbers differ." },
+      "notes": "Tests are grouped into 1 kilometre squares and joined to population. Rules give each square a label, and the score only sorts. The AI only rewords, and code checks its numbers. These thresholds are my own choices and aren't confirmed with the mentor."
+    },
+    {
+      "type": "results",
+      "title": "What the 2026 Q3 data shows",
+      "table": {
+        "header": ["Label", "Squares", "Residents"],
+        "colW": [3.1, 1.3, 1.5],
+        "rows": [
+          ["Strong FWA candidate", "2", "22"],
+          ["Candidate, mobile unproven", "9", "129"],
+          ["Thin data", "1,025", "64,491"],
+          ["Not a gap", "409", "356,843"],
+          ["No data", "6,346", "69,739"]
+        ]
+      },
+      "bigStat": { "value": "1 of 20", "label": "shortlisted squares passes every rule", "insight": "4 have unproven mobile; 15 rest on thin data: leads to check, not findings." },
+      "notes": "The honest result is that the data is thin. Of the 20 on the shortlist, 1 passes every rule, 4 have unproven mobile, and 15 are leads to check. The app shows that rather than hiding it."
+    },
+    {
+      "type": "pilot",
+      "title": "How a sales team could test it",
+      "pilot": ["One region, one quarter's shortlist", "Sales and planners check the leads", "Assumption: not yet tried with anyone"],
+      "hypotheses": [
+        { "title": "Thin leads hold up", "measure": "Share of tier 3 squares confirmed by local checks" },
+        { "title": "Sales can act on it", "measure": "Squares from the export used in a real campaign plan" },
+        { "title": "The sentence is enough", "measure": "Users can explain a pick from the card alone" }
+      ],
+      "notes": "This is a proposal, not something that has happened. The first thing to test is whether the thin-data leads hold up when someone checks them locally."
+    },
+    {
+      "type": "twoColumns",
+      "title": "Honest limits and next steps",
+      "left": { "heading": "Today", "items": ["Not operator-specific: tests name no operator", "Most squares have few or no tests", "Thresholds not confirmed with the mentor", "Ookla licence is non-commercial"] },
+      "right": { "heading": "Next", "items": ["Confirm thresholds with the mentor", "Consider pooling several quarters of tests", "Check the licence for real commercial use", "Check the CSV in Excel with sales"] },
+      "notes": "Speed tests show what people experience, not any operator's coverage. Next, I'd confirm the thresholds and consider pooling quarters: my trial over 4 quarters with looser rules filled the list with 20 strong squares, but those are looser rules."
+    },
+    {
+      "type": "close",
+      "icon": "FaBroadcastTower",
+      "title": "Q&A",
+      "subtitle": "Broadband Gap Finder: find the slow broadband, and know how sure you are.",
+      "footer": "Adil Ary  ·  github.com/AdilAry/production  ·  broadband-gap-finder.streamlit.app",
+      "notes": "Thank you. The demo link and the code are on this slide. Questions?"
+    }
+  ]
+}

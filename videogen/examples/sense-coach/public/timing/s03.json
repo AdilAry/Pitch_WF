@@ -1,0 +1,106 @@
+{
+  "id": "s03",
+  "source": "elevenlabs",
+  "hash": "0156f497ca8c0fb6",
+  "durationSeconds": 7.395,
+  "speechEndSeconds": 7.338,
+  "words": [
+    {
+      "text": "Sense",
+      "start": 0,
+      "end": 0.348
+    },
+    {
+      "text": "Coach",
+      "start": 0.383,
+      "end": 0.639
+    },
+    {
+      "text": "answers",
+      "start": 0.697,
+      "end": 1.022
+    },
+    {
+      "text": "three",
+      "start": 1.08,
+      "end": 1.289
+    },
+    {
+      "text": "questions",
+      "start": 1.335,
+      "end": 1.846
+    },
+    {
+      "text": "in",
+      "start": 1.892,
+      "end": 1.962
+    },
+    {
+      "text": "plain",
+      "start": 2.032,
+      "end": 2.287
+    },
+    {
+      "text": "words.",
+      "start": 2.357,
+      "end": 2.937
+    },
+    {
+      "text": "Is",
+      "start": 3.216,
+      "end": 3.379
+    },
+    {
+      "text": "my",
+      "start": 3.437,
+      "end": 3.529
+    },
+    {
+      "text": "roof",
+      "start": 3.599,
+      "end": 3.785
+    },
+    {
+      "text": "OK?",
+      "start": 3.855,
+      "end": 4.365
+    },
+    {
+      "text": "Is",
+      "start": 4.574,
+      "end": 4.737
+    },
+    {
+      "text": "this",
+      "start": 4.783,
+      "end": 4.911
+    },
+    {
+      "text": "normal?",
+      "start": 4.992,
+      "end": 5.503
+    },
+    {
+      "text": "What",
+      "start": 5.747,
+      "end": 5.909
+    },
+    {
+      "text": "should",
+      "start": 5.933,
+      "end": 6.095
+    },
+    {
+      "text": "I",
+      "start": 6.13,
+      "end": 6.153
+    },
+    {
+      "text": "do?",
+      "start": 6.223,
+      "end": 7.338
+    }
+  ],
+  "audioStart": 0,
+  "audioEnd": 6.59
+}

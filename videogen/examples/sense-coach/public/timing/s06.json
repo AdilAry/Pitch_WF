@@ -1,0 +1,176 @@
+{
+  "id": "s06",
+  "source": "elevenlabs",
+  "hash": "0a6562ea0fa78aff",
+  "durationSeconds": 12.15,
+  "speechEndSeconds": 12.074,
+  "words": [
+    {
+      "text": "The",
+      "start": 0,
+      "end": 0.139
+    },
+    {
+      "text": "manufacturer's",
+      "start": 0.186,
+      "end": 0.998
+    },
+    {
+      "text": "own",
+      "start": 1.057,
+      "end": 1.231
+    },
+    {
+      "text": "alarm",
+      "start": 1.265,
+      "end": 1.602
+    },
+    {
+      "text": "rules",
+      "start": 1.672,
+      "end": 1.974
+    },
+    {
+      "text": "check",
+      "start": 2.043,
+      "end": 2.252
+    },
+    {
+      "text": "the",
+      "start": 2.31,
+      "end": 2.38
+    },
+    {
+      "text": "data",
+      "start": 2.426,
+      "end": 2.682
+    },
+    {
+      "text": "first.",
+      "start": 2.763,
+      "end": 3.32
+    },
+    {
+      "text": "Jev",
+      "start": 3.704,
+      "end": 3.936
+    },
+    {
+      "text": "decides",
+      "start": 4.005,
+      "end": 4.4
+    },
+    {
+      "text": "what",
+      "start": 4.435,
+      "end": 4.551
+    },
+    {
+      "text": "it",
+      "start": 4.586,
+      "end": 4.644
+    },
+    {
+      "text": "means",
+      "start": 4.702,
+      "end": 5.05
+    },
+    {
+      "text": "and",
+      "start": 5.108,
+      "end": 5.224
+    },
+    {
+      "text": "how",
+      "start": 5.294,
+      "end": 5.41
+    },
+    {
+      "text": "sure",
+      "start": 5.503,
+      "end": 5.759
+    },
+    {
+      "text": "it",
+      "start": 5.805,
+      "end": 5.875
+    },
+    {
+      "text": "is.",
+      "start": 5.921,
+      "end": 6.362
+    },
+    {
+      "text": "Claude",
+      "start": 6.606,
+      "end": 6.943
+    },
+    {
+      "text": "explains",
+      "start": 6.978,
+      "end": 7.465
+    },
+    {
+      "text": "it",
+      "start": 7.512,
+      "end": 7.581
+    },
+    {
+      "text": "in",
+      "start": 7.616,
+      "end": 7.674
+    },
+    {
+      "text": "plain",
+      "start": 7.744,
+      "end": 8.022
+    },
+    {
+      "text": "words.",
+      "start": 8.104,
+      "end": 8.696
+    },
+    {
+      "text": "And",
+      "start": 8.905,
+      "end": 9.044
+    },
+    {
+      "text": "if",
+      "start": 9.102,
+      "end": 9.16
+    },
+    {
+      "text": "it's",
+      "start": 9.207,
+      "end": 9.334
+    },
+    {
+      "text": "unclear,",
+      "start": 9.392,
+      "end": 10.228
+    },
+    {
+      "text": "the",
+      "start": 10.403,
+      "end": 10.519
+    },
+    {
+      "text": "app",
+      "start": 10.6,
+      "end": 10.844
+    },
+    {
+      "text": "says",
+      "start": 10.913,
+      "end": 11.146
+    },
+    {
+      "text": "so.",
+      "start": 11.204,
+      "end": 12.074
+    }
+  ],
+  "audioStart": 0.03,
+  "audioEnd": 11.6
+}

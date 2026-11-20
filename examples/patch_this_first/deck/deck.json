@@ -1,0 +1,129 @@
+{
+  "meta": {
+    "title": "Patch This First",
+    "author": "Adil Arystanbek",
+    "output": "pitch.pptx"
+  },
+  "colors": {
+    "navy": "1B1F24",
+    "teal": "0B5CAD",
+    "ice": "EEF4FB",
+    "amber": "C0392B",
+    "red": "C0392B",
+    "ink": "1B1F24",
+    "white": "FFFFFF"
+  },
+  "slides": [
+    {
+      "type": "title",
+      "icon": "FaShieldAlt",
+      "title": "Patch This First",
+      "subtitle": "3 fixes this week, in plain words",
+      "footer": "Mock Traficom NCSC-FI challenge  ·  template test 2026-11-03  ·  Adil Ary",
+      "notes": "Hi, I'm Adil. Patch This First is for the person who does the IT at a small office next to their real job. You paste your software list, and you get the three things to fix this week, why, and a link to the fix."
+    },
+    {
+      "type": "cards",
+      "title": "Alerts exist. Decisions don't",
+      "cards": [
+        { "icon": "FaCommentDots", "title": "Written for experts", "text": "Alerts list CVE numbers. The part-time IT person patches what sounds loudest, or nothing." },
+        { "icon": "FaExclamationTriangle", "title": "What is attacked now?", "text": "They can't tell which of their own programs attackers are using right now." },
+        { "icon": "FaClock", "tone": "amber", "title": "30 minutes a month", "text": "That is all the time they have for security." }
+      ],
+      "footnote": "Pain points from the challenge brief",
+      "notes": "The brief describes an office manager or teacher who looks after IT on the side. Traficom publishes alerts, but they are written for security staff. These people have about thirty minutes a month and can't turn a list of CVE numbers into a decision."
+    },
+    {
+      "type": "list",
+      "title": "Who it's for",
+      "items": [
+        { "icon": "FaUser", "title": "The accidental IT person", "text": "Paste a list, read three actions in Finnish or English, no account, no upload." },
+        { "icon": "FaBuilding", "tone": "navy", "title": "Traficom NCSC-FI", "text": "Its alerts turned into one week's to-do list, with a rule anyone can check." }
+      ],
+      "notes": "The main user has no security vocabulary. For Traficom, the gain is that public exploitation data becomes an action list a small organisation can follow."
+    },
+    {
+      "type": "statement",
+      "title": "Patch This First in one sentence",
+      "sentence": "A local app that matches your software list against programs attackers already exploit, so you know the 3 things to patch this week without reading advisories.",
+      "chips": ["Which of my programs are attacked?", "Which three first, and why?", "What do I do now?"],
+      "notes": "That's the whole idea. It answers three questions: which programs are attacked, which three first and why, and what exactly to do, including what the tool could not check."
+    },
+    {
+      "type": "demo",
+      "title": "Demo: an invented 12-person office",
+      "image": "shots/top3.png",
+      "imageLarge": true,
+      "caption": "Data: CISA Known Exploited Vulnerabilities Catalog (CC0 1.0), version 2026.10.30 · EPSS scores from FIRST.org (first.org/epss), dated 2026-11-02. CISA does not endorse this tool.",
+      "heading": "Invented sample list",
+      "subheading": "Real KEV and EPSS data, 2026-11-03",
+      "stats": [
+        { "value": "16", "label": "programs pasted" },
+        { "value": "13", "label": "matched" },
+        { "value": "3", "label": "not matched, shown" }
+      ],
+      "moments": [
+        { "tone": "teal", "title": "Firewall first", "text": "FortiGate: 15 exploited flaws, used in ransomware" },
+        { "tone": "amber", "title": "Then Windows 11 and 10", "text": "Same 203 flaws: really one Windows update" },
+        { "tone": "green", "title": "Honest gaps", "text": "Zoom, NAS, printer: not matched, not called safe" }
+      ],
+      "notes": "Switch to the live app here. Click English, then Use sample list. The firewall comes first: fifteen flaws attackers have used, some in ransomware. Then Windows 11 and Windows 10, which share the same 203 flaws, so this week is really two updates. At the bottom, three programs it couldn't match, with the note that this does not mean safe."
+    },
+    {
+      "type": "pipeline",
+      "title": "How it works",
+      "steps": [
+        { "title": "Your list", "text": "Pasted, kept in memory only" },
+        { "title": "Match", "text": "Against CISA's list of exploited flaws" },
+        { "title": "Rank", "text": "Ransomware first, then attack forecast, then newest" },
+        { "title": "Plain words", "text": "Template, or AI from 4 public facts" }
+      ],
+      "highlight": 2,
+      "callout": { "bold": "The AI never sees your list.", "text": "Gemini gets four public facts per card; text that adds or drops a fact falls back to a template." },
+      "notes": "Your list stays in memory. Each line is matched against the CISA catalog of flaws known to be exploited. The ranking rule fits in one sentence: anything used in ransomware first, then the highest forecast chance of attacks in the next thirty days, then the newest addition. The AI only rewrites four public facts into two sentences, and its output is checked."
+    },
+    {
+      "type": "results",
+      "title": "Checked on real data, 2026-11-03",
+      "table": {
+        "header": ["Case", "Result", "Note"],
+        "colW": [2.0, 2.4, 1.5],
+        "rows": [
+          ["Sample list, 16 lines", "13 matched; top 3 all ransomware-linked", "2 distinct actions"],
+          ["Brief's example, one line", "4 items: Fortinet VPN, Windows 10, Office 2019 first", "Fixed after judge pass"],
+          ["54 messy names", "37 matched", "Was 26, one false"],
+          ["Automated tests", "47 pass", "Matching, ranking, AI checks"],
+          ["Cached AI texts", "4, each read by a person", "1 Finnish redone"]
+        ]
+      },
+      "bigStat": { "value": "3 of 3", "label": "top items with a flaw used in ransomware", "insight": "But Windows 11 and 10 share their 203 flaws." },
+      "notes": "On the invented sample, all three top items are on CISA's exploited list and linked to ransomware. The brief's own one-line example now gives three distinct actions. Matching messy names is the weakest part: 37 of 54 names in my probe match."
+    },
+    {
+      "type": "business",
+      "title": "How it creates value",
+      "cards": [
+        { "icon": "FaGift", "title": "Free and local", "text": "Public data (1,766 KEV entries), no keys, no account, runs on a laptop." },
+        { "icon": "FaBuilding", "title": "Assumption: NCSC-FI link", "text": "Linked from alerts as a self-check. Not discussed with Traficom." },
+        { "icon": "FaHandshake", "title": "Assumption: IT partners", "text": "Small-business IT firms could use it with clients. Not tested." }
+      ],
+      "takeaway": "No prices or users yet: who would pay is an open question.",
+      "notes": "Honestly, I have no users and no prices. What I can say: the data is free and public, 1,766 entries with 313 added in the last year, and the tool needs no keys. The two channels on the right are assumptions to test, not results."
+    },
+    {
+      "type": "twoColumns",
+      "title": "Honest limits and next steps",
+      "left": { "heading": "Today", "items": ["No version check", "One card per line: Windows 11 and 10 duplicate", "End of support not shown", "Live AI often too slow, template shown"] },
+      "right": { "heading": "Next", "items": ["End-of-support list", "NVD lookup for products not in KEV", "Merge cards with identical flaws", "Finnish read by a native speaker"] },
+      "notes": "It doesn't check versions, so it says check your version, never you are vulnerable. Windows 10 gets install the update even though it's past end of support. Next I'd add an end-of-support list, NVD for products CISA doesn't list, and a native speaker's read of the Finnish."
+    },
+    {
+      "type": "close",
+      "icon": "FaShieldAlt",
+      "title": "Q&A",
+      "subtitle": "Patch This First: 3 fixes this week, in plain words",
+      "footer": "Adil Ary  ·  repo link to be added  ·  runs locally: streamlit run app.py",
+      "notes": "Thank you to the Traficom mentors. Questions?"
+    }
+  ]
+}
