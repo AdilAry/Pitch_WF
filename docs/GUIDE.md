@@ -85,8 +85,9 @@ in a temporary folder and compares it with the reference; your files aren't touc
 ## Tool notes
 
 `docs/tools/` holds short notes on tools, each written from the official docs. `/entry` copies one into a
-project only when the project uses that tool. Vid keeps its own copies of `remotion.md`, `eleven_labs.md` and
-`laptop.md` in `videogen/docs/`: update the copy when the kit's note changes.
+project only when the project uses that tool. Vid keeps its own copies of `remotion.md` and `eleven_labs.md` in
+`videogen/docs/`: update the copy when the kit's note changes. Who I am and my machines are in the workflow's
+user-level file, not here.
 
 To write a new note, paste this into a chat, with the tool's name in place of "placeholder":
 
@@ -111,8 +112,8 @@ engine and the writing rules. Edit it there, then copy it to `template/docs/SCEN
 ---
 ## Changing the kit
 
-Open the chat in the kit's folder; its AGENTS.md has the rules. Keep it generic: project facts go in
-`examples/`, never in `template/` or `videogen/`. Test a change in a copy, never in the kit. The last full test
+Open the chat in the kit's folder; its AGENTS.md has the rules. Keep it generic: no project's facts go in
+`template/` or `videogen/`. Test a change in a copy, never in the kit. The last full test
 of the old template (3 Nov 2026) is archived in `Archive\2026-11_template_test_patch\`, with its snag list in
 `Big_Hackathon\since_ai\proposals\dryrun_and_template_results\SNAGS.md` ("Passed" lists tests A–D). Repeat them
 after larger changes.

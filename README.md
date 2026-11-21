@@ -36,8 +36,7 @@ skim test and the deck and video checks don't run, because `/judge` doesn't read
 | `videogen/` | the Remotion video project, copied per project as its own repo | copied (videogen V5, tracked files only, no `.env`); its CLAUDE.md now says "project repo" and `/present` |
 | `style/` | my style guide and its video primitives | empty: written after the practice remake (`TODO.md` item 4) |
 | `docs/GUIDE.md` | how to make the materials: setup, `/present`, deck, video, tool notes | rewritten from `Templates\project_pitch\README.md` |
-| `docs/tools/` | tool notes copied into a project only when it uses the tool | copied unchanged. `laptop.md` and `testing_laptop.md` repeat the user-level file. Kept until you decide. Board notes live in Embed_WF (`hardware/boards/`) |
-| `examples/` | finished projects, reference only, never copied | copied (25 MB). They use the old `CLAUDE.md` layout |
+| `docs/tools/` | tool notes copied into a project only when it uses the tool | copied unchanged. Machines are in the workflow's user-level file; board notes in Embed_WF (`hardware/boards/`) |
 | `scripts/install.ps1`, `install.sh` | install the kit's commands; set `PITCH_WF` | drafted |
 
 `Templates\project_pitch\production\CLAUDE.md` does not move: the workflow's AGENTS.md and this kit's section

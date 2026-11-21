@@ -2,7 +2,7 @@
 // current src/ in a temporary folder, and compares it with the example's reference video.
 // Your scenes.json, audio and clips are not touched.
 //   npm run regress
-// Exit code 1 if the videos differ. Needs the example's media, which is not in git.
+// Exit code 1 if the videos differ. Needs the example's media, which is committed with the kit.
 import { execFileSync } from "node:child_process";
 import crypto from "node:crypto";
 import fs from "node:fs";
@@ -23,7 +23,7 @@ const hash = (file: string): string =>
 
 for (const needed of [reference, path.join(example, "public", "audio")]) {
   if (!fs.existsSync(needed))
-    fail(`${path.relative(root, needed)} is missing (it is not in git)`);
+    fail(`${path.relative(root, needed)} is missing (it is committed with the kit; restore it with git checkout)`);
 }
 
 fs.rmSync(work, { recursive: true, force: true });

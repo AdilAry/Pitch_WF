@@ -5,10 +5,6 @@ Make a [90 s] target, [120 s] maximum, 1920×1080, 30 fps product video for [PRO
 
 Time budget: [3 hours] from finished `scenes.json` to mp4. If it runs over, tell me what's left and what you'd cut.
 
-## About me
-- Adil, embedded systems engineer. Comfortable with Python and C, newer to React/TypeScript: keep changes simple, tell me exactly what to run.
-- Everything runs **locally**: Windows, PowerShell, Lenovo Legion Y540, i5-9300H, 16 GB RAM, GTX 1650. Render with `--concurrency=2` (the default in `npm run render`); try `npx remotion render Video out/video.mp4 --concurrency=4` only if renders are too slow.
-
 ## Project context
 - What it is: [one sentence]
 - For whom: [users]
@@ -21,14 +17,14 @@ Time budget: [3 hours] from finished `scenes.json` to mp4. If it runs over, tell
 - **Use only facts from `scenes.json` and this section. Never invent numbers or claims.**
 
 ## The engine (already built: read `TEMPLATE.md` and `SCENES_FORMAT.md` first)
-- `scenes.json` → content: narration, visual type, word cues per scene. `examples/sense-coach/` is a complete working example.
+- `scenes.json` → content: narration, visual type, word cues per scene. `examples/sense-coach/` is the regression fixture: read it for the file format and how the engine is driven, never for style. Its look is version 0, the generic style that doesn't win; style comes from the project repo's `docs/style/`.
 - `npm run check` → validates scenes.json (unknown visuals, cue words not in narration, missing files, scenes under 5 s, empty screens, hard-to-read colours, total length).
 - Voice:
   - ElevenLabs: `npm run voice` → `public/audio/`, `public/timing/` (cached; `--only s03`, `--force`).
   - Own voice (backup, per scene): I save `recordings/<scene id>.m4a|wav|mp3`; `npm run timing:whisper` → word timings aligned to the narration, volume boosted automatically. Scenes with a recording use it; scenes without keep ElevenLabs. `npm run voice` never overwrites recordings.
 - Clips: `npm run crop -- clips/<file>.mp4 [x1 y1 x2 y2]` → `crop` values for scenes.json.
-- `npm run preview` → Remotion Studio. `npm run render` → `out/video.mp4`.
-- API notes: `docs/remotion.md`, `docs/eleven_labs.md`; this laptop: `docs/laptop.md`. They are copies of the files in the Pitch_WF kit's `docs/tools/`.
+- `npm run preview` → Remotion Studio. `npm run render` → `out/video.mp4`. Rendering runs locally, with `--concurrency=2` (the default in `npm run render`); try `npx remotion render Video out/video.mp4 --concurrency=4` only if renders are too slow. I'm newer to React and TypeScript: keep engine changes simple.
+- API notes: `docs/remotion.md`, `docs/eleven_labs.md`. They are copies of the files in the Pitch_WF kit's `docs/tools/`.
 - **`SCENES_FORMAT.md` is edited here** (when the engine or the writing rules change). After changing it, copy it to the project repo's `docs/SCENES_FORMAT.md`, which `/present` uses to write `scenes.json`.
 - **`scenes.json` here is the master once it's copied in.** Script changes happen here; after the render, copy it back as an exact file copy to the project repo's `pitch/scenes.json`.
 - Visual types, cue actions and the scenes.json format are documented in `TEMPLATE.md` and `src/visuals/`. Reuse them; add a new visual type only if a scene truly needs one, and add it the same way (props from scenes.json, frame-driven animation, cues via `frameOfWord`).

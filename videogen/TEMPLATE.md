@@ -122,7 +122,7 @@ npm run render
 ```
 Output: `out/video.mp4`. A 72 s video takes about 2 minutes on this laptop, so re-rendering after a small fix is cheap.
 
-After changing the engine itself, run `npm run regress`. It renders `examples/sense-coach/` in a temporary folder and compares it with the reference video, without touching your files.
+After changing the engine itself, run `npm run regress`. It renders `examples/sense-coach/` in a temporary folder and compares it with the reference video, without touching your files. The example is there for that test and as a format reference, not as a model for style (`examples/sense-coach/README.md`).
 
 ## Common fixes
 
