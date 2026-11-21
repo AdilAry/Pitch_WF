@@ -74,8 +74,9 @@ Changes to the deck content are made in the project's chat.
 6. `npm run render` → `out/video.mp4`.
 7. Upload to YouTube (unlisted) and Google Drive; test the links in a private window. Copy Vid's `scenes.json`
    back over the project's `pitch/scenes.json` as an exact file copy. In the project's chat, give it the video
-   link and have it rerun `docs/PITCH.md` §4. Then `/judge final` in a fresh session: the kit's "At /judge also
-   (final)" steps review the deck PDF, one still per scene and the narration.
+   link and have it rerun `docs/PITCH.md` §4. Then `/judge final` in a fresh session (the one the Freeze section
+   names; run it once, here): the kit's "At /judge also (final)" steps review the deck PDF, one still per scene
+   and the narration.
 
 **After changing the video engine itself:** `npm run regress` in the kit's `videogen/`. It renders the example
 in a temporary folder and compares it with the reference; your files aren't touched.

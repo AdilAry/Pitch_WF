@@ -14,5 +14,5 @@
 ## Presentation materials
 - `/present` in a fresh session: it writes the materials from docs/PITCH.md and lists the clips and screenshots to take.
 - I take the screenshots and record the clips. The deck is built in `deck/`; the video in the video repo.
-- [IF competition] Then `/judge final` in a fresh session.
+- [IF competition] Only now is the hand-in ready: this is when the Freeze section's `/judge final` runs, once, in a fresh session. Don't run it before the materials exist.
 - **Done when:** `/present`'s own checks (docs/PITCH.md §4) pass, and I approve the deck and the video.
