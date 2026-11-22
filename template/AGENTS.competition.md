@@ -7,7 +7,7 @@
 - **Hand-in:** [what must be delivered, with limits | none].
 - **Demo moment:** [one concrete thing shown live or found in real data].
 - **Demo access:** no setup for the judge: [a hosted link that opens without a login | one command from the README]. Whatever must be judged is also in the video and the deck.
-- **Look:** from the style guide; see Presentation. Sponsor logo: [allowed, asked on day one | not allowed | not asked yet].
+- **Look:** from the style guide; see Presentation. Fixed at M0. Sponsor logo: [allowed, asked on day one | not allowed | not asked yet].
 - **Team:** [me (solo) | names and roles].
 - **Budget:** [16] h of work. M0 skeleton and baseline score 10% · M1 foundation 10% · M2 core feature 20% · first-question check · M3 [model and its score | extra layer] 20% · M4 polish 10% · judge pass + fixes 20% · submission dry run 10% · freeze. When a milestone reaches its budget, stop and tell me what's left and what you'd cut; I decide. Time left under budget goes first to the biggest gap from the first-question check and the judge pass, then to polish.
 - **Libraries:** whatever the official data and the official evaluator need is approved in advance. Anything else, ask.
@@ -19,7 +19,7 @@
 - **At /judge also:**
   - When you use the product, start from the hand-in or the demo link and its README alone, not from "How to run". Every step beyond what "Demo access" promises is an issue.
   - Run the Official score; say whether the materials report the result against the baseline in one line.
-  - Ask the First question and read the top results. Do they answer it usefully, for every user group named there?
+  - Ask the First question and read the top results. Do they answer it usefully? Does every user group named there get something it can use?
   - Title question: which built thing answers it? A page of text doesn't count.
   - Describe the entry that would win on this brief (what it builds, what it shows first, the number it closes on) and list what it has that this one lacks.
   - Name every line of "Not doing" that the brief, the sponsor's answers or your own findings now argue against.
