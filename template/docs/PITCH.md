@@ -3,7 +3,7 @@
 > Read in full by `/present`, or when Adil says "write the README". Everything the app does is built by now; this is about telling it honestly.
 
 ## 1. Inputs
-- `PROGRESS.md` (what works, what's broken), `docs/history.md` (judge passes), `docs/ai_log.md`, `tests/`, `data/`, the running app, and in AGENTS.md the sections Project, Problem, Competition and Presentation.
+- `PROGRESS.md` (what works, what's broken), `docs/history.md` (judge passes), `docs/ai_log.md` (a competition has one; without it, ask me which AI tools were used), `tests/`, `data/`, the running app, and in AGENTS.md the sections Project, Problem, Competition and Presentation.
 - Format specs: `docs/SCENES_FORMAT.md` (video), `docs/DECK_FORMAT.md` (slides).
 
 ## 2. Presentation materials (`/present`)

@@ -8,9 +8,10 @@ inside this folder: it would load this file too.
 - **The short-loop workflow is an external dependency**, found through `$WORKFLOW_DIR`. The kit uses only the
   WORKFLOW.md §8 list; the README names the contract date it was written against. A change to how sessions
   work belongs in the workflow repo first. Never copy or restate the workflow's files here.
-- **The kit is about showing a result, not building it.** Budget, official score, first-question check, the
-  submission dry run and the freeze are the workflow's `Competition` section. Don't duplicate them here; add
-  to them only through the plan lines in `template/plan.presentation.md`.
+- **The kit holds the competition work and the showing of the result.** Since the contract of 22 November 2026
+  the workflow has no competition material: budget, official score, hand-in, first-question check, submission
+  dry run, freeze and AI log are this kit's (`template/AGENTS.competition.md`, `template/plan.competition.md`,
+  `template/docs/ai_log.md`). Their review steps go under "At /judge also"; never patch `/judge` for them.
 - `commands/<name>.md`: the kit's commands, in the workflow's command format (frontmatter `description` and
   optional `argument-hint`, body uses `$ARGUMENTS`). Keep them agent-neutral: say "AGENTS.md", keep the
   frontmatter valid YAML (no `: ` inside a description), and do not write an at-sign directly before a file

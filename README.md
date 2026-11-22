@@ -1,31 +1,40 @@
 # Pitch_WF: presentation materials for a short-loop project
 
-**Draft, 20 Nov 2026: skeleton written, the Templates files copied in. Not tested, not installed anywhere.**
+**State, 22 Nov 2026:** the presentation part was tested end to end on a throwaway project on 21 Nov
+(installers, `/entry`, `/present`, deck, video checks). The competition part was added on 22 Nov and has been
+checked only by a dry run of `/entry`. Not used at an event yet.
 
-An add-on to the short-loop workflow. It gives a project what it needs to be shown: a pitch card written at M0,
-the presentation materials written in one go after the freeze (facts, video script, deck, write-up, live script,
-README), the deck builder, the Remotion video project, and a style of my own that carries from one project to
-the next.
+An add-on to the short-loop workflow, in two parts:
 
-The workflow does the rest, competitions included: the `Competition` section (budget, official score,
-first-question check, submission dry run, freeze) is the workflow's own. This kit adds only what is about
-showing the result. A hackathon uses both; a portfolio piece or a talk may use the kit without the
-`Competition` section.
+- **Presentation**, for any result that must be shown: a pitch card written at M0, the presentation materials
+  written in one go after the freeze (facts, video script, deck, write-up, live script, README), the deck
+  builder, the Remotion video project, and a style of my own that carries from one project to the next.
+- **Competition**, only when someone else judges the result against criteria and a deadline: the
+  `Competition` section (budget, official score, hand-in, demo access, its `/judge` steps), the plan sections
+  (first-question check, polish, submission dry run, freeze) and the AI log. The workflow left these to kits
+  on 22 November 2026.
+
+A hackathon uses both; a portfolio piece or a talk uses only the presentation part.
 
 ## Built on the short-loop workflow
 
 A separate repository, which this kit doesn't copy. The kit uses only what the workflow's WORKFLOW.md §8,
 "Building a kit on this workflow", lists, and finds the workflow through `WORKFLOW_DIR`.
 
-**Written against the contract of 21 November 2026** (Workflow branch `pitch_chat`, the first with "At /judge also"). On an older workflow the
-skim test and the deck and video checks don't run, because `/judge` doesn't read that field.
+**Written against the contract of 22 November 2026** (Workflow `master`, the first with no competition material
+in the core). On a workflow of 21 November the project template still has its own `Competition` section;
+`/entry` keeps that one and adds no second. On an older workflow `/judge` doesn't read "At /judge also", so the
+competition review steps, the skim test and the deck and video checks don't run.
 
 ## What's in it
 
 | Path | What | State |
 |---|---|---|
-| `commands/entry.md` | `/entry`: adds the kit to an existing workflow project | drafted |
+| `commands/entry.md` | `/entry`: adds the kit to an existing workflow project; the competition part only if someone else judges the result | drafted; competition part 22 Nov |
 | `commands/present.md` | `/present`: writes the presentation materials from `docs/PITCH.md` | drafted |
+| `template/AGENTS.competition.md` | the `Competition` section `/entry` adds to a project's AGENTS.md, with its `/judge` steps and read-when row | moved from the workflow (22 Nov) |
+| `template/plan.competition.md` | the M0 lines and the four competition sections `/entry` adds to `docs/plan.md` | moved from the workflow (22 Nov) |
+| `template/docs/ai_log.md` | the AI log, for competitions | moved from the workflow unchanged (22 Nov) |
 | `template/AGENTS.presentation.md` | the `Presentation` section `/entry` adds to a project's AGENTS.md, with its read-when rows | drafted |
 | `template/plan.presentation.md` | the lines and sections `/entry` adds to a project's `docs/plan.md` | drafted |
 | `template/docs/pitch_card.md` | the pitch card | drafted |
@@ -63,8 +72,10 @@ whisper backup are as in today's `Templates\README.md`, steps 5 and 6.
 ## Per project
 
 1. Make the project with the workflow (`new-project.sh`, or the PowerShell steps of its §3).
-2. In it, start the agent and type `/entry`. It adds the `Presentation` section, the plan lines and the docs,
-   copies the deck builder, and tells you how to make the video repo next to the project.
+2. In it, start the agent and type `/entry`. It asks whether someone else judges the result; if so, it adds the
+   `Competition` section, its plan sections and `docs/ai_log.md`. Then it adds the `Presentation` section, the
+   plan lines and the docs, copies the deck builder, and tells you how to make the video repo next to the
+   project.
 3. Fill the brackets it added, then work as usual: `/start` ... `/wrap`.
 4. After the freeze: `/present`. Then the deck and video steps it lists.
 
