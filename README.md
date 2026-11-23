@@ -1,5 +1,7 @@
 # Pitch_WF: presentation materials for a short-loop project
 
+**Paused (23 Nov 2026): not maintained until a competition comes up. Unmerged work is on branch `competition_section`.**
+
 **Draft, 20 Nov 2026: skeleton written, the Templates files copied in. Not tested, not installed anywhere.**
 
 An add-on to the short-loop workflow. It gives a project what it needs to be shown: a pitch card written at M0,
